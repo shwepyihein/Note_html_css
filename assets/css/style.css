@@ -199,7 +199,7 @@ section{
     position: relative;
 }
 .first_frame img{
-    width: 500px;
+    width: 100%;
     height: 500px;
     position: relative;    
 }
@@ -211,28 +211,28 @@ section{
 }
 
 .second_frame img{
-    width: 500px;
+    width:100%;
     height: 700px;
     position: relative;  
 }
 
 .second_frame_bottom img{
-    width: 500px;
+    width: 100%;
     height: 300px;
     position: relative;  
 }
 .third_frame img{
-    width: 500px;
+    width: 100%;
     height: 300px;
     position: relative;  
 }
 .third_frame_bottom img{
-    width: 500px;
+    width: 100%;
     height: 700px;
     position: relative;  
 }
 .four_frame img{
-    width: 500px;
+    width: 100%;
     height: 1000px;
     position: relative;  
 }
@@ -249,11 +249,10 @@ section{
     box-shadow: 0px 0px 5px #313131;
 }
 
-.view{
+main .view{
     width: 100%;
-    height: 600px;
-    position: relative;
-    height:800px;       
+    height: 100vh;
+    position: relative;         
     font-size: 30px;
     margin:auto;
 }
