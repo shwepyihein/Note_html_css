@@ -199,10 +199,11 @@ section{
     position: relative;
 }
 .first_frame img{
-    width: 400px;
+    width: 500px;
     height: 500px;
     position: relative;    
 }
+
 .bottom{
     position: absolute;
     bottom: 10px;
@@ -271,6 +272,7 @@ section{
 .profile{
     padding: 20px;
     width: 700px;
+    margin-bottom: 30px;
 }
 .profile img{
     height: 50px;
@@ -282,4 +284,45 @@ section{
 .profile h2{
     font-size: 20px;    
     padding-left: 10px;
+}
+
+
+@media (max-width: 1100px) {  
+    .Frame.g-4{
+        display: grid!important;
+        grid-template-columns: 1fr 1fr !important;
+    }    
+}
+@media (max-width: 576px) {  
+    .Frame.g-4{
+        text-align: center;
+        grid-template-columns:  1fr !important;
+    } 
+    .heart{
+        left:50px ;
+    }
+    .bottom{
+        left:50px;
+    }
+}
+@media (max-width: 699px) {  
+    .para-bottom{
+        padding-left: 50px;
+        font-size: 25px;
+    }
+    .profile{
+        padding: 20px;
+        width: 500px;
+    }
+    .view{
+        font-size: 25px;
+    }
+    header{
+        font-size: 16px;
+    }
+    .search input{
+        padding: 10px 30px;
+        width: 200px;
+    }
+ 
 }
