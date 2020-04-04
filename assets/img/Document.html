@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/third_page.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/style.css">
+    <link href="./Document_files/css" rel="stylesheet">
+
+<link type="text/css" rel="stylesheet" href="chrome-extension://ckhifbinlmakgeidlbbmplikmcofaedf/mm.css"><link type="text/css" rel="stylesheet" href="chrome-extension://ekcknfleddaejiggabkjphpflidckbig/zg.css"></head>
+
+<body cz-shortcut-listen="true">
+    <header class="fixed-top">
+        <nav class="inner-header layout-flex flex-space-around">
+            <div class="logo layout-flex flex-item-center">
+                <h1>Love Notes</h1>
+            </div>
+            <div class="search layout-flex flex-item-center">
+                <input type="text" placeholder="Search note ...">
+            </div>
+
+            <div class="page layout-flex flex-item-center flex-space-around">
+                <a href="http://127.0.0.1:5500/third_page.html#">
+                    Home
+                </a>
+                <a href="http://127.0.0.1:5500/third_page.html#">
+                    Login
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="view" style="background:url(../assets/img/iskador.jpg); background-size: cover;">
+           
+            <div class="view-bottom layout-flex flex-item-center flex-center"> 
+                    <div class="profile" style="
+    flex-direction: row!important;
+">
+                        <img src="./Document_files/img_avatar.png" alt="Avatar" style="width:200px">
+                        
+                            <h2> KO Nyan</h2>
+                        
+                    </div>               
+                    <div>
+                        <h1>
+                            To my Darling
+                        </h1>
+                    </div>
+                    <div>
+                        <h3>
+                            The moment I saw you, I just knew it.<br>
+                            I relaized you are all that i have been searching for<br>
+                            all of my life
+                        </h3>
+                    </div>
+                    <div class="view-heart layout-flex flex-center">
+                        <h1>Romance</h1>
+                        <h1>100</h1>
+                    </div>                
+            </div>
+    </div></main>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
