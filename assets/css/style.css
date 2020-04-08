@@ -4,6 +4,8 @@ body,html{
     font-family: 'MarkerFelt','Roboto';
     color: white;        
 }
+
+
 *{
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -181,17 +183,27 @@ main{
 section{
     width: 100%;
     height: 1000px;
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
-.frame{
-    position: relative;
+
+.frame {
+  width: 25%;
+  position: relative;
 }
-.first_frame img{
-    width: 100%;
-    height: 500px;
-    position: relative;    
+
+.frame {
+  float: left;
 }
+
+.frame img {
+position: relative;
+  display: block;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 
 .bottom{
     position: absolute;
@@ -199,32 +211,6 @@ section{
     left: 30px;
 }
 
-.second_frame img{
-    width:100%;
-    height: 700px;
-    position: relative;  
-}
-
-.second_frame_bottom img{
-    width: 100%;
-    height: 300px;
-    position: relative;  
-}
-.third_frame img{
-    width: 100%;
-    height: 300px;
-    position: relative;  
-}
-.third_frame_bottom img{
-    width: 100%;
-    height: 700px;
-    position: relative;  
-}
-.four_frame img{
-    width: 100%;
-    height: 1000px;
-    position: relative;  
-}
 
 
 .forward{

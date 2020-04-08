@@ -1,0 +1,17 @@
+body {
+	background: #e8e8e8;
+	font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+
+
+
+
+.brick .img {
+	width: 100%;
+	max-width: 100%;
+	display: block;
+}
+
+.brick h3, .brick h5 {
+	text-shadow: none;
+}
