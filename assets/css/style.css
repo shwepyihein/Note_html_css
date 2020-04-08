@@ -127,32 +127,20 @@ header{
 main{
    margin-top: 80px;
 }
-.homepage{
+.homepage img{
     width: 100%;
     height: 600px;
     position: relative;
-    height:800px;    
-    
+    height:800px;        
 }
-.homepage::after {
-    content: "";
-    background:url(../img/iskador.jpg);
-    background-size: cover;    
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
+
 .heart h1,p{
     padding: 5px;
     margin: 0;        
 }
 .heart{
     position: absolute;
-    top:10px;
+    top:17px;
     left: 10px;
     font-family: 'Roboto';
     max-width: 200px;
@@ -167,12 +155,13 @@ main{
     
 }
 .homepage-size{
+    position: absolute;
     padding: 30px;
     padding-top: 70px;
 }
 .para-bottom{
     position: absolute;
-    bottom: 0;
+    bottom: 160px;
     font-size: 30px;
     padding: 30px;    
     padding-left:100px ;
